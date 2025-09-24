@@ -1,3 +1,4 @@
+#creating a backend to store the state file in s3
 terraform {
   required_version = ">= 0.12.24"
 
