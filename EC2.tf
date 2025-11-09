@@ -5,7 +5,7 @@ resource "random_pet" "sg" {
 }
 
 ## AWS VPC
-resource "aws_vpc" "awsec2demo" {
+resource "aws_vpc" "awsec2demo_vpc" {
   cidr_block           = "172.16.0.0/16"
   enable_dns_support   = true
   enable_dns_hostnames = true
