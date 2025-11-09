@@ -3,7 +3,7 @@ terraform {
   required_version = ">= 0.12.24"
 
   backend "s3" {
-    bucket = "new-bucket-for-git-actions-terraform"
+    bucket = "git-actions-terraform"
     key    = "terraform/state/production.tfstate"
     region = "us-east-1"
   }
